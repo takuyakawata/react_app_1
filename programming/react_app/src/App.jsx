@@ -7,6 +7,7 @@ import { Janken } from "./pages/Janken";
 import { BookCreate } from "./pages/BookCreate";
 import { BookIndex } from "./pages/BookIndex";
 import { BookShow } from "./pages/BookShow";
+import { Reserve } from "./pages/Reserve";
 
 const App = () => {
   return (
@@ -25,8 +26,11 @@ const App = () => {
         <li>
           <Link to="/book-index">一覧表示</Link>
         </li>
-
+         <li>
+          <Link to="/reserve">予約入力</Link>
+        </li>
       </ul>
+
       <hr />
       <Routes>
         <Route path="/omikuji" element={<Omikuji />} />
@@ -34,9 +38,9 @@ const App = () => {
         <Route path="/book-create" element={<BookCreate />} />
         <Route path="/book-index" element={<BookIndex />} />
         <Route path="/book-show/:id" element={<BookShow />} />
+        <Route path="/reserve" element={<Reserve />} />
       </Routes>
     </BrowserRouter>
-
   );
 };
 export default App;

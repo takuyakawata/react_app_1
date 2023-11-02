@@ -1,9 +1,11 @@
 // pages/Omikuji.jsx
 //データの保持
 import { useState } from "react";
+//
 import { ActionButton } from "../components/ActionButton.jsx";
 
-export const Omikuji = () => {
+
+export const Omikuji  = () => {
 
   const [omikujiResult, setOmikujiResult] = useState("");
 
