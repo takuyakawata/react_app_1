@@ -17,7 +17,7 @@ export const Reserve = () => {
 
   return (
     <>
-      <p>授業予約の画面</p>
+      <p>授業予約の画面?</p>
       <input 
         type="text" 
         value={classReserve} 
