@@ -1,6 +1,7 @@
 
 import { ActionButton } from "./components/ActionButton";
 import { BrowserRouter, Routes, Route ,Link} from "react-router-dom";
+import './App.css';
 
 import { Omikuji } from "./pages/Omikuji";
 import { Janken } from "./pages/Janken";
