@@ -1,5 +1,5 @@
 
-import { ActionButton } from "./components/ActionButton";
+// import { ActionButton } from "./components/ActionButton";
 import { BrowserRouter, Routes, Route ,Link} from "react-router-dom";
 import './App.css';
 
@@ -9,6 +9,8 @@ import { BookCreate } from "./pages/BookCreate";
 import { BookIndex } from "./pages/BookIndex";
 import { BookShow } from "./pages/BookShow";
 import { Reserve } from "./pages/Reserve";
+import { Todo } from "./pages/Todo";
+
 
 const App = () => {
   return (
@@ -30,6 +32,9 @@ const App = () => {
          <li>
           <Link to="/reserve">予約入力</Link>
         </li>
+         <li>
+          <Link to="/todo">やることリストの入力</Link>
+        </li>
       </ul>
 
       <hr />
@@ -40,6 +45,7 @@ const App = () => {
         <Route path="/book-index" element={<BookIndex />} />
         <Route path="/book-show/:id" element={<BookShow />} />
         <Route path="/reserve" element={<Reserve />} />
+        <Route path="/todo" element={<Todo />} />
       </Routes>
     </BrowserRouter>
   );
