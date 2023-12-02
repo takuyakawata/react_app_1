@@ -9,6 +9,8 @@ Currently, two official plugins are available:
 
 Reactを利用したアプリケーション開発
 
+https://takuyakawata.github.io/react_app_1/programming/react_app/index.html
+
 じゃんけんアプリ
 おみくじアプリ
 本検索アプリ
