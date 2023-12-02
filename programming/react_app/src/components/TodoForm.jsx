@@ -26,6 +26,7 @@ export const TodoForm = ({ addTodo }) => {
         type="datetime-local"
         value={datetime}
         onChange={(e) => setDatetime(e.target.value)}
+        class=""
       />
       <button type="submit">追加</button>
     </form>
